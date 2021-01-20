@@ -32,7 +32,7 @@ function openLink(value) {
         alert('Server is currently under development')
     }
     if (value == "second") {
-        window.location.href = "https://discord.gg/";
+        window.location.href = "https://discord.gg/a7CG2FDNKG";
     }
     if (value == "third") {
         window.location.href = "ts3server://";
@@ -55,7 +55,7 @@ function openLink(value) {
     if (value == "partner") {
         window.location.href = "partner.html";
     }
-    if (value == "rules" || value == "whitelist") {
+    if (value == "rules") {
        window.location.href = "rules.html";
     }
 }
