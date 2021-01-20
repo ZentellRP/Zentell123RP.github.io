@@ -29,13 +29,13 @@ function copyText(text) {
 
 function openLink(value) {
     if (value == "first") {
-        window.location.href = "cfx.re/join/b6o5xl";
+        window.location.href = "";
     }
     if (value == "second") {
-        window.location.href = "https://discord.gg/a7CG2FDNKG";
+        window.location.href = "";
     }
     if (value == "third") {
-        window.location.href = "ts3server://";
+        window.location.href = "";
     }
     if (value == "start") {
         window.location.href = "index.html";
