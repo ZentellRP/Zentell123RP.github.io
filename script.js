@@ -29,7 +29,7 @@ function copyText(text) {
 
 function openLink(value) {
     if (value == "first") {
-        alert('Server is currently under development')
+        window.location.href = "cfx.re/join/b6o5xl";
     }
     if (value == "second") {
         window.location.href = "https://discord.gg/a7CG2FDNKG";
