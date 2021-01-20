@@ -11,43 +11,34 @@
 
 <ul class="menu">
     <li class="menuitem" onclick="openLink('start')">Start</li>
-    <li class="menuitem" onclick="openLink('about')">About</li>
-    <li class="menuitem" onclick="openLink('rules')">Rules</li>
+    <li class="menuitem" onclick="openLink('rules')">Regler</li>
     <li class="menuitem" onclick="openLink('whitelist')">Whitelist</li>
-    <li class="menuitem" onclick="openLink('apply')" style="border-color: #3ca918">Apply</li>
-    <li class="menuitem" onclick="openLink('contact')">Contact</li>
-    <li class="menuitem" onclick="openLink('partner')">Partner</li>
-    <li class="menuitem" onclick="openLink('imprint')">Imprint</li>
+    <li class="menuitem" onclick="openLink('apply')" style="border-color: #3ca918">Ansøgninger</li>
 </ul>
 
 <div class="maintext">
 
     <form method="post" action="php/apply.php" enctype='multipart/form-data'>
 
-        <p>Nickname & Discordname*</p>
+        <p>Navn & Discordnavn*</p>
         <p><input type="text" name="username" required></p>
 
-        <p>Rank*</p>
+        <p>*</p>
         <p>
             <select name="subject" onclick="selectRang(this.value)" required>
-                <option value="Developer">Developer</option>
-                <option value="Supporter">Supporter</option>
-                <option value="Concept">Concept</option>
-                <option value="others">Others</option>
+                <option value="Staff">Developer</option>
+                <option value="Politi">Supporter</option>
+                <option value="Læge">Concept</option>
+                <option value="Mekaniker">Others</option>
+                <option value="Advokat">Others</option>
             </select>
         </p>
 
-        <p>E-Mail-Adress*</p>
-        <p><input type="email" name="email" required></p>
-
-        <p>Informations*</p>
+        <p>Information om dig.*</p>
         <p><textarea name="body" required></textarea ></p >
-    
-        <p>Files (PDF Documents, References etc.)</p>
-        <p><input type="file" class="input-file" name="data"></p>
 
         <p >
-        <input type="submit" name="submit" value="Nachricht abschicken" >
+        <input type="submit" name="submit" value="Ansøg!" >
         </p >
 
         <div class="dev">
