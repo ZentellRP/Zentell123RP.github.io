@@ -1,5 +1,5 @@
-let first = null;
-let second = "https://discord.gg/";
+let first = "cfx.re/join/b6o5xl";
+let second = "https://discord.gg/a7CG2FDNKG";
 let third = "TeamSpeak Link";
 
 
